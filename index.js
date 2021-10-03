@@ -22,7 +22,7 @@ app.use(morgan("common"));
 
 app.use("/api/user", userRouter);
 app.use("/api/auth", authRouter);
-app.use("/api/post", postRouter);
+app.use("/api/posts", postRouter);
 
 app.listen(8000, () => {
   console.log("server is started");
